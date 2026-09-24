@@ -1,0 +1,12 @@
+{
+  "name": "typesafe-mario-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test gateway/*.test.mjs"
+  },
+  "dependencies": {
+    "ai": "7.0.107"
+  }
+}
