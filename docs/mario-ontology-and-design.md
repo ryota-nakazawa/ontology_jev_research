@@ -4,6 +4,8 @@
 
 この資料は、マリオを知らない読者でも「何を知識として持ち、何を判断し、どう動作へつないだか」を追えるように整理した設計解説です。実装履歴は [continuous-skill-runtime.md](continuous-skill-runtime.md)、ステージ知識の詳細は [mario-gimmick-knowledge.md](mario-gimmick-knowledge.md) にあります。
 
+全Skillの適用条件・制御・終了条件は、別資料の [マリオの全Skillと判断条件一覧](mario-skill-catalog.md) にまとめています。
+
 ## 1. この実験でいうオントロジー
 
 本実験では、オントロジーを **ゲーム内の対象・関係・状態に加え、行動の目的、適用条件、期待する結果、結果の確認方法を明示した知識体系** として扱います。
